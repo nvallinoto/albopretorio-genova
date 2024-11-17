@@ -7,4 +7,4 @@ Lo script esegue le seguenti operazioni
 - Converte il file con gli atti in pubblicazione in formato csv (VisiData/Python)
 - Filtra gli atti che contengono determinate parole chiave e salva il file in formato csv (VisiData/Python)
 - Visualizza gli atti selezionati (VisiData/Python)
-
+Per eseguire lo script occorre installare Chrome, Python e VisiData.
