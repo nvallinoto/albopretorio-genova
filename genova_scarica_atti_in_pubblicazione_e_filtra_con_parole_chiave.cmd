@@ -25,5 +25,5 @@ del *.tsv
 
 REM converti il file con gli atti selezionati in formato html 
 vd -b "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv" -o "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.html"
-REM visualizza gli atti selezionato con VisiData
+REM visualizza gli atti selezionati con VisiData
 vd "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv"
