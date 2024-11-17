@@ -8,4 +8,5 @@ Lo script esegue le seguenti operazioni
 - Filtra gli atti che contengono determinate parole chiave e salva il file in formato csv (VisiData/Python)
 - Salva gli atti selezionati in formato html e csv
 - Visualizza gli atti selezionati (VisiData/Python)
+
 Per eseguire lo script occorre installare Chrome, Python e VisiData.
