@@ -8,7 +8,7 @@ REM cancella la colonna "Pubbl. N\u00b0_link0"
 REM aggiorna la colonna "Atto N\u00b0_link0" con url completo dell'atto
 vd -y -p comandi/atti_replace_cmdlog.vdj --batch
 
-REM cancella il file html
+REM cancella i file html
 del albo*.html 
 
 REM cerca gli atti contenenti alcune parole chiave nella colonna dettaglio
@@ -22,6 +22,7 @@ REM aggiungi al nome del file la data
 move "atti_in_pubblicazione_selezionati.csv" "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv"
 
 del *.tsv
+
 REM converti il file con gli atti selezionati in formato html 
 vd -b "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv" -o "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.html"
 REM visualizza gli atti selezionato con VisiData
