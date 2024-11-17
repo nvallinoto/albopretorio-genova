@@ -6,7 +6,7 @@ Lo script esegue le seguenti operazioni
 - Scarica la pagina con gli atti in pubblicazione dell'albo pretorio in formato html (Chrome)
 - Converte il file con gli atti in pubblicazione in formato csv (VisiData/Python)
 - Filtra gli atti che contengono determinate parole chiave e salva il file in formato csv (VisiData/Python)
-- Salva gli atti selezionati in formato html e csv
+- Salva gli atti selezionati in formato html e csv (VisiData/Python)
 - Visualizza gli atti selezionati (VisiData/Python)
 
 Per eseguire lo script occorre installare Chrome, Python e VisiData.
