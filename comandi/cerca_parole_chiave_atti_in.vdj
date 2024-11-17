@@ -1,0 +1,5 @@
+#!vd -p
+{"col": "", "row": "", "longname": "open-row-file", "input": "", "keystrokes": "Enter", "comment": "open current file as a new sheet"}
+{"sheet": "albo", "col": "Dettaglio", "row": "", "longname": "select-col-regex", "input": "(stazione marittima) | funivia | (forte begato) | espropri | lagaccio | gavoglio | principe | Doppelmayr | Collini | B31B21006780001 | 9219018E4F | (MOGE 20792) | OBR | A002D44B88 | (collegamento funiviario) | cantiere | cantierizzazione | interferenze | PNC | pnc ", "keystrokes": "|", "comment": "select rows matching regex in current column"}
+{"sheet": "albo", "col": "", "row": "", "longname": "dup-selected", "input": "", "keystrokes": "\"", "comment": "open duplicate sheet with only selected rows"}
+{"sheet": "albo_selectedref", "col": "", "row": "", "longname": "save-sheet", "input": "atti_in_pubblicazione_selezionati.csv", "keystrokes": "Ctrl+S", "comment": "save current sheet to filename in format determined by extension (default .tsv)"}
