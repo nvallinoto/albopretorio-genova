@@ -4,7 +4,7 @@ Il sito dell'albo pretorio del Comune di Genova (https://alboonline.comune.genov
 La ricerca avanzata non funziona (al 17/11/2024) e restituisce "Nessun atto trovato" per qualsiasi parola inserita.
 Lo script esegue le seguenti operazioni
 - Scarica la pagina con gli atti in pubblicazione dell'albo pretorio in formato html (Chrome)
-- Converte il file con gli atti in pubblicazione in formato csv (VisiData)
-- Filtra gli atti che contengono determinate parole chiave e salva il file in formato csv (VisiData)
-- Visualizza gli atti selezionati (VisiData)
+- Converte il file con gli atti in pubblicazione in formato csv (VisiData/Python)
+- Filtra gli atti che contengono determinate parole chiave e salva il file in formato csv (VisiData/Python)
+- Visualizza gli atti selezionati (VisiData/Python)
 
