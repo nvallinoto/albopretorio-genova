@@ -22,7 +22,7 @@ REM aggiungi al nome del file la data
 move "atti_in_pubblicazione_selezionati.csv" "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv"
 
 del *.tsv
-
+REM converti il file con gli atti selezionati in formato html 
 vd -b "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv" -o "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.html"
-
+REM visualizza gli atti selezionato con VisiData
 vd "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv"
