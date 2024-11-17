@@ -23,4 +23,6 @@ move "atti_in_pubblicazione_selezionati.csv" "genova_atti_selezionati_%date:~6,4
 
 del *.tsv
 
+vd -b "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv" -o "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.html"
+
 vd "genova_atti_selezionati_%date:~6,4%%date:~3,2%%date:~0,2%.csv"
