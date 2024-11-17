@@ -1,0 +1,2 @@
+#!vd -p
+{"sheet": "albo", "col": "", "row": "\u30adattiList", "longname": "open-row", "input": "", "keystrokes": "Enter", "comment": "open current row with sheet-specific dive"}
