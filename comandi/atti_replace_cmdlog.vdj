@@ -1,0 +1,6 @@
+#!vd -p
+{"sheet": null, "col": null, "row": null, "longname": "open-file", "input": "albo.tsv", "keystrokes": "o", "comment": null}
+{"sheet": "albo", "col": "", "row": "", "longname": "select-rows", "input": "", "keystrokes": "gs", "comment": "select all rows"}
+{"sheet": "albo", "col": "Pubbl. N\u00b0_link0", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "albo", "col": "Atto N\u00b0_link0", "row": "", "longname": "setcol-regex-subst", "input": {"before": "albo.html", "after": "alboonline.comune.genova.it/albopretorio/"}, "keystrokes": "g*", "comment": "regex/subst - modify selected rows in current column, replacing regex with subst, (may include backreferences \\1 etc)"}
+{"sheet": "albo", "col": "", "row": "", "longname": "save-sheet", "input": "albo.tsv", "keystrokes": "Ctrl+S", "comment": "save current sheet to filename in format determined by extension (default .tsv)"}
